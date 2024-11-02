@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card-pokemon {
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card-pokemon:hover {
+  opacity: 0.8;
+}
+
+.text-truncate {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.card-properties__abilities {
+  background-position: center top 60px;
+  background-size: 100px;
+}
+
+/* css background card */
+.bg-normal {
+  background-color: rgb(181, 185, 196) !important;
+}
+.bg-fighting {
+  background-color: rgb(235, 73, 113) !important;
+}
+.bg-flying {
+  background-color: rgb(235, 73, 113) !important;
+}
+.bg-poison {
+  background-color: rgb(159, 110, 151) !important;
+}
+.bg-ground {
+  background-color: rgb(247, 133, 81) !important;
+}
+.bg-rock {
+  background-color: rgb(111, 110, 120) !important;
+}
+.bg-bug {
+  background-color: rgb(139, 214, 116) !important;
+}
+.bg-ghost {
+  background-color: rgb(133, 113, 190) !important;
+}
+.bg-steel {
+  background-color: rgb(76, 145, 178) !important;
+}
+.bg-fire {
+  background-color: rgb(255, 167, 86) !important;
+}
+.bg-water {
+  background-color: rgb(88, 171, 246) !important;
+}
+.bg-grass {
+  background-color: rgb(139, 190, 138) !important;
+}
+.bg-electric {
+  background-color: rgb(242, 203, 85) !important;
+}
+.bg-psychic {
+  background-color: rgb(255, 101, 104) !important;
+}
+.bg-ice {
+  background-color: rgb(145, 216, 223) !important;
+}
+.bg-dragon {
+  background-color: rgb(115, 131, 185) !important;
+}
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.bg-fairy {
+  background-color: rgb(235, 168, 195) !important;
+}
+.bg-stellar {
+}
+.bg-unknown {
+}
+
+/* css type */
+.normal_type {
+  background: rgb(157, 160, 170) !important;
+}
+.fighting_type {
+  background: rgb(208, 65, 100) !important;
+}
+.flying_type {
+  background: rgb(116, 143, 201) !important;
+}
+.poison_type {
+  background: rgb(165, 82, 204) !important;
+}
+.ground_type {
+  background: rgb(221, 119, 72) !important;
+}
+.rock_type {
+  background: rgb(186, 171, 130) !important;
+}
+.bug_type {
+  background: rgb(140, 178, 48) !important;
+}
+.ghost_type {
+  background: rgb(85, 106, 174) !important;
+}
+.steel_type {
+  background: rgb(65, 125, 154) !important;
+}
+.fire_type {
+  background: rgb(253, 125, 36) !important;
+}
+.water_type {
+  background: rgb(74, 144, 218) !important;
+}
+.grass_type {
+  background: rgb(98, 185, 87) !important;
+}
+.electric_type {
+  background: rgb(238, 213, 53) !important;
+}
+.psychic_type {
+  background: rgb(234, 93, 96) !important;
+}
+.ice_type {
+  background: rgb(97, 206, 192) !important;
+}
+.dragon_type {
+  background: rgb(15, 106, 192) !important;
+}
+.dark_type {
+  background: rgb(159, 110, 151) !important;
+}
+.fairy_type {
+  background: rgb(237, 110, 199) !important;
+}
+.stellar_type {
+}
+.unknown_type {
+}
+
+.pagination {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.pagination li.active button {
+  background-color: #333 !important;
+  color: #fff !important;
+  border-color: #333 !important;
+  cursor: not-allowed !important;
+}
